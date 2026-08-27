@@ -1,0 +1,12 @@
+yarn.lock linguist-generated
+*.tsx linguist-detectable
+
+Cargo.lock linguist-generated
+*.map linguist-generated
+*.yml linguist-detectable=false
+src/**/*.ts linguist-detectable
+
+*.bat text eol=crlf
+package-lock.json linguist-generated
+
+*.htm linguist-vendored
